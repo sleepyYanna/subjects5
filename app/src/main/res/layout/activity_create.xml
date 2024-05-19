@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtaddroom2"
+        android:layout_width="337dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:fontFamily="@font/dm_sans_bold"
+        android:hint="Add a room"
+        android:minHeight="48dp"
+        android:paddingStart="60dp"
+        android:singleLine="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="83dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="34dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/arrow" />
+
+
+    <EditText
+        android:id="@+id/txtaddsub"
+        android:layout_width="391dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:fontFamily="@font/dm_sans_bold"
+        android:hint="Add a name"
+        android:minHeight="60dp"
+        android:paddingStart="60dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spincolor"
+        android:layout_width="314dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:paddingStart="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinterms"
+        android:layout_width="295dp"
+        android:layout_height="36dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:paddingStart="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <EditText
+        android:id="@+id/txtnote"
+        android:layout_width="329dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:fontFamily="@font/dm_sans_bold"
+        android:hint="Add a note"
+        android:inputType="text"
+        android:lines="20"
+        android:outlineSpotShadowColor="#E91E63"
+        android:paddingStart="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="341dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:fontFamily="@font/dm_sans_bold"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textaddteacher"
+        android:layout_width="318dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:hint="Add a teacher"
+        android:inputType="text"
+        android:paddingStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
